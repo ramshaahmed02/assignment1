@@ -1,14 +1,19 @@
-// components/NavBar.js
-import Link from 'next/link';
 
-const NavBar = () => {
+import React from 'react';
+
+const Services = () => {
     return (
-        <nav>
-            <Link href="/Contact">Contact</Link> | 
-            <Link href="/Services">Services</Link> | 
-            <Link href="/About">About Us</Link>
-        </nav>
+        <div style={{ padding: '2rem' }}>
+            <h1>Our Services</h1>
+            <ul>
+                <li>Flat Booking</li>
+                <li>Pre -Booking</li>
+                <li>Post-Booking</li>
+                <li>Fun Packages</li>
+            </ul>
+            <p>We offer a wide range of apartments to make your living peaceful and stress-free!</p>
+        </div>
     );
 };
 
-export default NavBar;
+export default Services;
